@@ -8,7 +8,7 @@ const schedule = [
     focus: "Python DSA",
     emoji: "🧠",
     sessions: [
-      { time: "9:00 – 10:30 AM", type: "dsa", task: "Striver A2Z: Arrays — learn 1 concept video", link: "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2" },
+      { time: "9:00 – 10:30 AM", type: "dsa", task: "NeetCode Python DSA playlist: Arrays + two example problems", link: "https://neetcode.io" },
       { time: "10:45 – 11:30 AM", type: "dsa", task: "LeetCode: Solve 2 Easy array problems", link: "https://leetcode.com/problemset/?difficulty=EASY&topicSlugs=array" },
       { time: "4:00 – 5:00 PM", type: "review", task: "Re-code today's problems from scratch (no hints)", link: null },
     ],
@@ -34,7 +34,7 @@ const schedule = [
     focus: "Python DSA",
     emoji: "🧠",
     sessions: [
-      { time: "9:00 – 10:30 AM", type: "dsa", task: "Striver A2Z: Strings + Hashing concepts", link: "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2" },
+      { time: "9:00 – 10:30 AM", type: "dsa", task: "GeeksforGeeks Python DSA: Strings + Hashing tutorials", link: "https://www.geeksforgeeks.org/python-programming-language/" },
       { time: "10:45 – 11:30 AM", type: "dsa", task: "LeetCode: 2 Easy/Medium Hashmap problems", link: "https://leetcode.com/problemset/?difficulty=EASY&topicSlugs=hash-table" },
       { time: "4:00 – 5:00 PM", type: "review", task: "NeetCode video for 1 problem you struggled with", link: "https://neetcode.io" },
     ],
@@ -60,7 +60,7 @@ const schedule = [
     focus: "Python DSA",
     emoji: "🧠",
     sessions: [
-      { time: "9:00 – 10:30 AM", type: "dsa", task: "Striver A2Z: Recursion basics + 2 problems", link: "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2" },
+      { time: "9:00 – 10:30 AM", type: "dsa", task: "freeCodeCamp Python DSA course: Recursion + practice problems", link: "https://www.freecodecamp.org/learn/scientific-computing-with-python/" },
       { time: "10:45 – 11:30 AM", type: "dsa", task: "LeetCode: 2 Recursion/Backtracking Easy problems", link: "https://leetcode.com/problemset/?topicSlugs=recursion" },
       { time: "4:00 – 5:00 PM", type: "review", task: "Weekly DSA: Revisit 2 problems you got wrong this week", link: null },
     ],
@@ -95,9 +95,11 @@ const schedule = [
 ];
 
 const resources = [
-  { category: "DSA", name: "Striver A2Z Sheet", url: "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2", desc: "Best structured DSA roadmap for placements" },
+  { category: "DSA", name: "NeetCode.io", url: "https://neetcode.io", desc: "Python-first LeetCode walkthroughs and learning lists" },
+  { category: "DSA", name: "GeeksforGeeks Python DSA", url: "https://www.geeksforgeeks.org/python-programming-language/", desc: "Topic-based Python DSA tutorials and examples" },
+  { category: "DSA", name: "InterviewBit Python", url: "https://www.interviewbit.com/python/", desc: "Guided DSA practice with Python-focused explanations" },
+  { category: "DSA", name: "freeCodeCamp Python DSA", url: "https://www.freecodecamp.org/learn/scientific-computing-with-python/", desc: "Free Python DSA and recursion practice path" },
   { category: "DSA", name: "LeetCode", url: "https://leetcode.com", desc: "Primary problem practice platform" },
-  { category: "DSA", name: "NeetCode.io", url: "https://neetcode.io", desc: "Best video explanations for LeetCode problems" },
   { category: "Agents", name: "HF Agents Course", url: "https://huggingface.co/learn/agents-course", desc: "Free, structured AI agents course" },
   { category: "Agents", name: "DeepLearning.AI LangGraph", url: "https://learn.deeplearning.ai/courses/ai-agents-in-langgraph", desc: "Free short course — agents with memory & tools" },
   { category: "Agents", name: "Groq Console", url: "https://console.groq.com", desc: "Free fast LLM API for your agent projects" },
