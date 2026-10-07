@@ -1,16 +1,25 @@
-# React + Vite
+# Summer Schedule
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A weekly summer study planner that organizes Python DSA practice and AI agent learning into focused sessions, with review time and links to study resources.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- A weekday plan with a clear learning focus for each day
+- Time-blocked practice and review sessions
+- Direct links to relevant learning resources
+- Short study tips to support consistent practice
 
-## React Compiler
+## How to run
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Requires Node.js and npm.
 
-## Expanding the ESLint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To create a production build:
+
+```bash
+npm run build
+```
